@@ -128,8 +128,12 @@
   "@friday": {},
   "help": "帮助",
   "@help": {},
-  "hide_completed_task": "隐藏 $count 个已完成任务",
-  "@hide_completed_task": {},
+  "hide_completed_task": "隐藏 {count} 个已完成任务",
+  "@hide_completed_task": {
+    "placeholders": {
+      "count": {}
+    }
+  },
   "home": "主页",
   "@home": {
     "description": "主页"
@@ -238,8 +242,12 @@
   "@settings": {},
   "set_working_time": "工作时间设置",
   "@set_working_time": {},
-  "show_completed_task": "显示 $count 个已完成任务",
-  "@show_completed_task": {},
+  "show_completed_task": "显示 {count} 个已完成任务",
+  "@show_completed_task": {
+    "placeholders": {
+      "count": {}
+    }
+  },
   "someday": "某天",
   "@someday": {},
   "summary": " 概要",

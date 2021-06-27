@@ -6,7 +6,7 @@
   "@all_category": {},
   "app_haptics": "App haptics",
   "@app_haptics": {},
-  "app_haptics_desc": "If enabled, app will vibrate when you do someting",
+  "app_haptics_desc": "Certain actions will cause vibration if enabled",
   "@app_haptics_desc": {},
   "back_today": "Back to today",
   "@back_today": {},
@@ -128,8 +128,12 @@
   "@friday": {},
   "help": "Help",
   "@help": {},
-  "hide_completed_task": "Hide $count completed tasks",
-  "@hide_completed_task": {},
+  "hide_completed_task": "Hide {count} completed tasks",
+  "@hide_completed_task": {
+    "placeholders": {
+      "count": {}
+    }
+  },
   "home": "Home",
   "@home": {
     "description": "主页"
@@ -140,7 +144,7 @@
   "@inbox": {},
   "keep_screen_on": "Keep the screen on while recording",
   "@keep_screen_on": {},
-  "keep_screen_on_desc": "If enabled, the screen will keep on while the task is recording",
+  "keep_screen_on_desc": "Recording task will keep the screen on if enabled",
   "@keep_screen_on_desc": {},
   "last_day": "The last day",
   "@last_day": {},
@@ -174,11 +178,11 @@
   },
   "new_task_hint": "What would you like to do?",
   "@new_task_hint": {},
-  "no_content_category": "There is no task in the current category, click the ➕ to add",
+  "no_content_category": "Current category is empty, click ➕ to add",
   "@no_content_category": {},
-  "no_content_inbox": "There is no task in the inbox, click the + to add",
+  "no_content_inbox": "Inbox is empty, click + to add",
   "@no_content_inbox": {},
-  "no_content_selected_category": "There is no task for the current category",
+  "no_content_selected_category": "Empty task under current category",
   "@no_content_selected_category": {},
   "no_content_this_week": "There are no tasks this week, let's plan now!",
   "@no_content_this_week": {},
@@ -192,7 +196,7 @@
   "@powerful_task_management": {
     "description": "强大的任务管理"
   },
-  "powerful_task_management_desc": "Timez has powerful task management\nlet you plan every day in an orderly manner",
+  "powerful_task_management_desc": "Powerful task management of Timez orders your day",
   "@powerful_task_management_desc": {
     "description": "介绍页的 powerful_task_management 的描述"
   },
@@ -238,8 +242,12 @@
   "@settings": {},
   "set_working_time": "Set Working Time",
   "@set_working_time": {},
-  "show_completed_task": "Show $count completed tasks",
-  "@show_completed_task": {},
+  "show_completed_task": "Show {count} completed tasks",
+  "@show_completed_task": {
+    "placeholders": {
+      "count": {}
+    }
+  },
   "someday": "Someday",
   "@someday": {},
   "summary": "Summary",
