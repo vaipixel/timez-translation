@@ -128,6 +128,8 @@
   "@friday": {},
   "help": "Help",
   "@help": {},
+  "help_translate_app": "Help translate this app",
+  "@help_translate_app": {},
   "hide_completed_task": "Hide {count} completed tasks",
   "@hide_completed_task": {
     "placeholders": {

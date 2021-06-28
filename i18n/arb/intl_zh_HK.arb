@@ -128,6 +128,8 @@
   "@friday": {},
   "help": "幫助",
   "@help": {},
+  "help_translate_app": "幫助翻譯應用",
+  "@help_translate_app": {},
   "hide_completed_task": "隱藏 {count} 個已完成任務",
   "@hide_completed_task": {
     "placeholders": {
